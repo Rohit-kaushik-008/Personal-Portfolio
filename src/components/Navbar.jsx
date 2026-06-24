@@ -1,0 +1,37 @@
+import React, { useState } from 'react'
+import Navlist from './Navlist';
+
+const navbar = (state) => {
+
+  const closeSidebar = () => {
+    state.openNav(false)    
+  }
+
+  return (
+    <div className={`h-screen bg-white fixed top-0 left-0 w-full z-10 transform transition-transform duration-500 ease-in-out ${state.isOpen ? "translate-x-0 " : "-translate-x-full"}`}>
+
+      <div className='flex justify-between items-center bg-mist-200 py-6 px-4'>
+
+        <h2
+          className='text-3xl font-bold font-code'>
+          GamerKrown
+        </h2>
+
+        <button
+          onClick={closeSidebar}>
+          <img
+            className='h-10 cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in'
+            src="src/assets/sidebar.png"
+            alt="" />
+        </button>
+
+      </div>
+
+      <Navlist />
+
+
+    </div>
+  )
+}
+
+export default navbar
