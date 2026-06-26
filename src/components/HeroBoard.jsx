@@ -6,7 +6,7 @@ const HeroBoard = (props) => {
   return (
 
     <div
-        className='flex flex-col justify-center items-center gap-8 flex-wrap mt-8 rounded-2xl py-8 px-4 font-code lg:flex-row lg:flex-nowrap'>
+        className='flex flex-col justify-center items-center gap-8 flex-wrap mt-8 rounded-2xl py-8 px-4 font-code lg:flex-row '>
 
         <div
             className='bg-background-color px-4 py-4 w-full rounded-xl flex justify-between items-center hover:bg-background-color-light cursor-pointer transition duration-300 ease-in-out hover:scale-103'>

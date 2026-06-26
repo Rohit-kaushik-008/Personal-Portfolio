@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = () => {
   return (
     <div 
-      className='text-white'>
+      className='text-white lg:w-[65vw]'>
 
       <h1>skills section</h1>
 

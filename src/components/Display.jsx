@@ -14,25 +14,25 @@ const Display = (state) => {
 
     return (
 
-        <div className='bg-background-color h-screen overflow-auto border-primary-color border-2'>
+        <div className='bg-background-color h-screen overflow-auto border-primary-color border-2 lg:relative'>
 
-            <div className='flex justify-between items-center bg-background-color-dark py-4 px-6 shadow-primary-color-shade-light shadow-2xs'>
+            <div className='flex justify-between items-center bg-background-color-dark py-4 px-6 shadow-primary-color-shade-light shadow-2xs lg:sticky lg:top-0'>
 
                 <button>
 
                     <img
                         onClick={openSidebar}
-                        className='h-10 invert cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in'
+                        className='h-10 invert cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in lg:hidden'
                         src="src/assets/open sidebar.png"
                         alt="" />
 
                 </button>
 
                 <button
-                    className='text-white bg-primary-color rounded active:scale-95 cursor-pointer py-1'>
+                    className='text-white text-xl font-semibold font-code bg-primary-color rounded active:scale-95 cursor-pointer py-1'>
 
                     <Link to='/'
-                        className='px-2 py-1'>
+                        className='px-4'>
                         Home
                     </Link>
 

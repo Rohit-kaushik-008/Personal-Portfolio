@@ -13,7 +13,7 @@ const App = () => {
     const [isOpen,setIsOpen] =  useState(false)
 
     return (
-        <div className='h-screen bg-mist-90 cursor-default'>
+        <div className='h-screen bg-mist-90 cursor-default lg:flex'>
 
             <Navbar isOpen={isOpen} openNav={setIsOpen} />
 
