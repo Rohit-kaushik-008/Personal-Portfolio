@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 import Projects from '../pages/Projects'
 import Skills from '../pages/Skills'
@@ -9,22 +9,32 @@ import Contact from '../pages/Contact'
 const Display = (state) => {
 
     const openSidebar = () => {
-        state.openNav(true);        
+        state.openNav(true);
     }
 
     return (
 
-        <div>
+        <div className='bg-background-color h-screen overflow-auto border-primary-color border-2'>
 
-            <div className='flex justify-between items-center bg-mist-200 py-4 px-4'>
+            <div className='flex justify-between items-center bg-background-color-dark py-4 px-6 shadow-primary-color-shade-light shadow-2xs'>
 
                 <button>
 
                     <img
                         onClick={openSidebar}
-                        className='h-10 cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in'
+                        className='h-10 invert cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in'
                         src="src/assets/open sidebar.png"
                         alt="" />
+
+                </button>
+
+                <button
+                    className='text-white bg-primary-color rounded active:scale-95 cursor-pointer py-1'>
+
+                    <Link to='/'
+                        className='px-2 py-1'>
+                        Home
+                    </Link>
 
                 </button>
 

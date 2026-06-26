@@ -1,19 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Hero from '../components/Hero'
 
 const Home = () => {
+
+    const [projects, setProjects] = useState(3);
+    const [experience, setExperience] = useState(1);
+    const [technologies, setTechnologies] = useState(8);
+    const [completion, setCompletion] = useState(100);
+
     return (
-        <div>
+        <div className='p-4'>
 
             <div 
-                className='bg-mist-200 px-4 py-8 flex justify-center items-center bg-cover bg-center'>
+                className='px-4 py-8 flex justify-center items-center bg-cover bg-center'>
                 <img
-                    className='h-50 rounded-[50%] '
+                    className='h-50 rounded-[50%] profile-image'
                     src="src\assets\Levi Ackremann.jpg"
                     alt="" />
             </div>
 
-            <Hero />
+            <Hero projects={projects} experience={experience} technologies={technologies} completion={completion}/>
+
         </div>
     )
 }
