@@ -14,7 +14,7 @@ const Display = (state) => {
 
     return (
 
-        <div className='bg-background-color h-screen overflow-auto border-primary-color border-2 lg:relative'>
+        <div className='bg-background-color h-screen overflow-auto border-primary-color border-2 lg:relative w-full'>
 
             <div className='flex justify-between items-center bg-background-color-dark py-4 px-6 shadow-primary-color-shade-light shadow-2xs lg:sticky lg:top-0'>
 
@@ -40,7 +40,7 @@ const Display = (state) => {
 
             </div>
 
-            <div className='p-4'>
+            <div className='p-4 '>
 
                 <Routes>
 

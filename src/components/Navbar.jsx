@@ -3,8 +3,9 @@ import Navlist from './Navlist';
 
 const navbar = (state) => {
 
+
   const closeSidebar = () => {
-    state.openNav(false)    
+    state.openNav(false)
   }
 
   return (
@@ -27,7 +28,10 @@ const navbar = (state) => {
 
       </div>
 
-      <Navlist />
+      <div
+        onClick={closeSidebar}>
+        <Navlist state={state} />
+      </div>
 
 
     </div>

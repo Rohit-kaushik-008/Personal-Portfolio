@@ -6,12 +6,12 @@ const Projects = () => {
 
   const Projects = [
     {
-      title: "Project 1",
-      project_img: "hello project 1",
+      title: "Mini Search Engine",
+      project_img: "src/assets/Project1.png",
       description: "this is description",
       category: "Full Stack",
-      source_code: "https://www.facebook.com",
-      link: "https://www.github.com",
+      source_code: "https://github.com/",
+      link: "https://animoshow.netlify.app/",
       technologies: [
         "React",
         "Tailwind",
@@ -19,12 +19,12 @@ const Projects = () => {
       ]
     },
     {
-      title: "Project 2",
-      project_img: "hello project 2",
+      title: "Image Gallery",
+      project_img: "src/assets/Project2.png",
       description: "this is description",
       category: "Frontend",
-      source_code: "https://www.facebook.com",
-      link: "https://www.github.com",
+      source_code: "https://github.com/",
+      link: "https://imagogallery.netlify.app/",
       technologies: [
         "React",
         "Tailwind",
@@ -32,12 +32,12 @@ const Projects = () => {
       ]
     },
     {
-      title: "Project 3",
-      project_img: "hello project",
+      title: "Personal Portfolio",
+      project_img: "src/assets/Project3.png",
       description: "this is description",
       category: "Backend",
-      source_code: "https://www.facebook.com",
-      link: "https://www.github.com",
+      source_code: "https://github.com/",
+      link: "https://krownportfolio.netlify.app/",
       technologies: [
         "node.js",
         "Express.js",
@@ -50,7 +50,7 @@ const Projects = () => {
   return (
 
     <div
-      className='lg:w-[65vw] text-white'>
+      className='text-white flex flex-col md:flex-row flex-wrap gap-2 justify-center'>
 
 
       {Projects.map((project, index) => (

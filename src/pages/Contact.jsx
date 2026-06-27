@@ -5,25 +5,25 @@ const Contact = () => {
     <div className='flex gap-8 text-white flex-col text-center lg:w-[65vw]'>
 
       <h2
-        className='text-center mt-4'>
+        className='text-center mt-4 text-lg font-code font-semibold'>
           Email : example123@gmail.com
         </h2>
 
       <h1
-        className=''>
+        className='text-lg font-code font-semibold'>
           Contact No. 91+ 9988776655
       </h1>
 
       <hr />
 
       <h1
-        className=''>
+        className='text-2xl font-heading font-bold'>
           Links
       </h1>
 
 
       <div
-        className='flex gap-8 justify-center items-center py-4 px-8'>
+        className='flex gap-16 flex-wrap justify-center items-center py-4 px-8'>
 
 
 

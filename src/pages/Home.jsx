@@ -9,7 +9,7 @@ const Home = () => {
     const [completion, setCompletion] = useState(100);
 
     return (
-        <div className='p-4 lg:w-[65vw]'>
+        <div className='p-4 lg:w-full w-full'>
 
             <div 
                 className='px-4 py-8 flex justify-center items-center bg-cover bg-center'>
