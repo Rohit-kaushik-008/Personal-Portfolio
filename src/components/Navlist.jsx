@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navlist = () => {
     return (
+        
         <div
             className='flex flex-col gap-6 text-lg px-6 py-8 text-mist-300'>
 
