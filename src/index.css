@@ -26,12 +26,14 @@
     --color-primary-color: #7c3aed;
     --color-primary-color-shade-light: #a855f7;
     --color-primary-color-shade-dark: #4c1d95;
+    --color-primary-color-shade-darker: hsl(265, 88%, 13%);
     --color-accent-color: #22d3ee;
 
     --color-background-color: #101427;
     --color-background-color-light: #181c2e;
     --color-background-color-lighter: hsl(229, 28%, 17%);;
     --color-background-color-dark: #040715;
+    --color-background-color-darker: #0f001d;
 }
 
 
@@ -52,4 +54,8 @@
 .profile-image {
     box-shadow: 1px 1px 24px var(--color-primary-color-shade-light);
     border: 2px solid var(--color-primary-color);
+}
+
+h4 {
+    background: #0f001d;
 }

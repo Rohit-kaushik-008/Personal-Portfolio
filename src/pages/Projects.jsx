@@ -7,7 +7,7 @@ const Projects = () => {
   const Projects = [
     {
       title: "Mini Search Engine",
-      project_img: "src/assets/Project1.png",
+      project_img: "public/images/projects/Project1.png",
       description: "this is description",
       category: "Full Stack",
       source_code: "https://github.com/",
@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       title: "Image Gallery",
-      project_img: "src/assets/Project2.png",
+      project_img: "public/images/projects/Project2.png",
       description: "this is description",
       category: "Frontend",
       source_code: "https://github.com/",
@@ -33,7 +33,7 @@ const Projects = () => {
     },
     {
       title: "Personal Portfolio",
-      project_img: "src/assets/Project3.png",
+      project_img: "public/images/projects/Project3.png",
       description: "this is description",
       category: "Backend",
       source_code: "https://github.com/",

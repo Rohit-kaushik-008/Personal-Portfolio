@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Navlist from './Navlist';
+import closesidebar from "../assets/sidebar.png"
 
 const navbar = (state) => {
 
@@ -22,8 +23,8 @@ const navbar = (state) => {
           onClick={closeSidebar}>
           <img
             className='h-10 cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in invert lg:hidden'
-            src="src/assets/sidebar.png"
-            alt="" />
+            src={closesidebar}
+            alt="clsbar" />
         </button>
 
       </div>

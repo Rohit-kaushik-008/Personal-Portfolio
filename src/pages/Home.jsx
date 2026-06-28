@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Hero from '../components/Hero'
+import levi from "../assets/Levi Ackremann.jpg"
 
 const Home = () => {
 
@@ -15,7 +16,7 @@ const Home = () => {
                 className='px-4 py-8 flex justify-center items-center bg-cover bg-center'>
                 <img
                     className='h-50 rounded-[50%] profile-image'
-                    src="src\assets\Levi Ackremann.jpg"
+                    src={levi}
                     alt="" />
             </div>
 

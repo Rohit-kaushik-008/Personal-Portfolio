@@ -1,4 +1,7 @@
 import React from 'react'
+import openLink from "../assets/Open link.png"
+import gitHubicon from "../assets/github.png"
+
 
 const ProjectCard = ({ project }) => {
 
@@ -52,7 +55,7 @@ const ProjectCard = ({ project }) => {
                                 target='_blank'>
                                 <img
                                     className='h-6 invert'
-                                    src="src\assets\vinyl.png"
+                                    src={openLink}
                                     alt="github" />
                             </a>
                             <a
@@ -60,7 +63,7 @@ const ProjectCard = ({ project }) => {
                                 target='_blank'>
                                 <img
                                     className='h-6 invert'
-                                    src="src/assets/github.png"
+                                    src={gitHubicon}
                                     alt="github" />
                             </a>
 

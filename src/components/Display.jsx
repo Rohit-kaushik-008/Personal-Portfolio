@@ -5,6 +5,7 @@ import Projects from '../pages/Projects'
 import Skills from '../pages/Skills'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
+import opensidebar from "../assets/open sidebar.png"
 
 const Display = (state) => {
 
@@ -23,8 +24,8 @@ const Display = (state) => {
                     <img
                         onClick={openSidebar}
                         className='h-10 invert cursor-pointer hover:scale-105 active:scale-95 transition-all duration-100 ease-in lg:hidden'
-                        src="src/assets/open sidebar.png"
-                        alt="" />
+                        src={opensidebar}
+                        alt="osbar" />
 
                 </button>
 
@@ -37,6 +38,7 @@ const Display = (state) => {
                     </Link>
 
                 </button>
+
 
             </div>
 
