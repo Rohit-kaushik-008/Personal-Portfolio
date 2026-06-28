@@ -1,7 +1,5 @@
 import React from 'react';
 import SkillCard from '../components/SkillCard.jsx';
-import { FaReact, FaCss3Alt } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiFirebase } from 'react-icons/si';
 
 
 const Skills = () => {
@@ -67,7 +65,7 @@ const Skills = () => {
       },
         {
           name: "Express.js",
-          icon: "src/assets/python.png"
+          icon: "src/assets/express.svg"
       },
         {
           name: "Firebase",

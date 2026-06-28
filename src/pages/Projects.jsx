@@ -1,13 +1,17 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 
+import Project1  from "../assets/Project1.png";
+import Project2 from "../assets/Project2.png";
+import Project3 from "../assets/Project3.png";
+
 const Projects = () => {
 
 
   const Projects = [
   {
     title: "Mini Search Engine",
-    project_img: "src/assets/Project1.png",
+    project_img: Project1,
     description: "A full-stack search engine that allows users to find and explore content efficiently.",
     category: "Full Stack",
     source_code: "https://github.com/",
@@ -29,7 +33,7 @@ const Projects = () => {
   },
   {
     title: "Image Gallery",
-    project_img: "src/assets/Project2.png",
+    project_img: Project2,
     description: "A responsive image gallery for browsing and managing visual collections.",
     category: "Frontend",
     source_code: "https://github.com/",
@@ -51,7 +55,7 @@ const Projects = () => {
   },
   {
     title: "Personal Portfolio",
-    project_img: "src/assets/Project3.png",
+    project_img: Project3,
     description: "A personal portfolio website showcasing skills, projects, and professional journey.",
     category: "Backend",
     source_code: "https://github.com/",

@@ -48,11 +48,11 @@ const ProjectCard = ({ project }) => {
                         className='flex gap-4 py-2 px-4 justify-between items-center'>
 
                         <div
-                            className='flex gap-8 flex-wrap justify-center items-center'>
+                            className='flex gap-6 flex-wrap justify-center items-center'>
 
                             {project.technologies.map((item, key) => (
                                 <img key={key}
-                                    className='h-8'
+                                    className='h-7'
                                     src={item.icon}
                                     alt={item.name} />
                             ))}
@@ -64,7 +64,7 @@ const ProjectCard = ({ project }) => {
                                 href={project.link}
                                 target='_blank'>
                                 <img
-                                    className='h-6 invert'
+                                    className='h-7 invert'
                                     src={openLink}
                                     alt="github" />
                             </a>
@@ -72,7 +72,7 @@ const ProjectCard = ({ project }) => {
                                 href={project.source_code}
                                 target='_blank'>
                                 <img
-                                    className='h-6 invert'
+                                    className='h-7 invert'
                                     src={gitHubicon}
                                     alt="github" />
                             </a>
