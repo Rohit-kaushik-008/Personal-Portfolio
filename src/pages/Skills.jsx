@@ -1,121 +1,127 @@
 import React from 'react';
 import SkillCard from '../components/SkillCard.jsx';
 
+import languages from '../assets/Prog-lang.png'
+import frontend from '../assets/Frontend.png'
+import backend from '../assets/backend.png'
+import tools from '../assets/tools.png'
+import deployement from '../assets/deploy.png'
+
 
 const Skills = () => {
 
   const skillSet = [
     {
       category: "Programming Languages",
-      image_url: "src/assets/Prog-lang.png",
+      image_url: languages,
       skills: [
         {
           name: "Python",
-          icon: "src/assets/python.png"
+          icon: "/python.png"
       },
         {
           name: "C++",
-          icon: "src/assets/C++.svg"
+          icon: "/C++.svg"
       },
         {
           name: "JavaScript",
-          icon: "src/assets/js.png"
+          icon: "/js.png"
       },
         {
           name: "C",
-          icon: "src/assets/C.svg"
+          icon: "/C.svg"
       }
       ]
     },
 
     {
       category: "Frontend",
-      image_url: "src/assets/Frontend.png",
+      image_url: frontend,
       skills: [
         {
           name: "HTML",
-          icon: "src/assets/html-5.png"
+          icon: "/html-5.png"
       },
         {
           name: "CSS",
-          icon: "src/assets/css-3.png"
+          icon: "/css-3.png"
       },
         {
           name: "React",
-          icon: "src/assets/React.png"
+          icon: "/React.png"
       },
         {
           name: "Tailwind",
-          icon: "src/assets/TailwindCSS.svg"
+          icon: "/TailwindCSS.svg"
       }
       ]
     },
 
     {
       category: "Backend",
-      image_url: "src/assets/backend.png",
+      image_url: backend,
       skills: [
         {
           name: "Node.js",
-          icon: "src/assets/nodejs-icon.svg"
+          icon: "/nodejs-icon.svg"
       },
         {
           name: "MongoDB",
-          icon: "src/assets/mongobg.svg"
+          icon: "/mongobg.svg"
       },
         {
           name: "Express.js",
-          icon: "src/assets/express.svg"
+          icon: "/Express.svg"
       },
         {
           name: "Firebase",
-          icon: "src/assets/firebase.svg"
+          icon: "/firebase.svg"
       }
       ]
     },
 
     {
       category: "Tools & Technologies",
-      image_url: "src/assets/tools.png",
+      image_url: tools,
       skills: [
         {
           name: "Git",
-          icon: "src/assets/git.svg"
+          icon: "/git.svg"
       },
         {
           name: "GitHub",
-          icon: "src/assets/github.svg"
+          icon: "/github.svg"
       },
         {
           name: "VS Code",
-          icon: "src/assets/vs-code.svg"
+          icon: "/vs-code.svg"
       },
         {
           name: "Figma",
-          icon: "src/assets/figma.svg"
+          icon: "/figma.svg"
       },
         {
           name: "ChatGPT",
-          icon: "src/assets/chatgpt-icon.svg"
+          icon: "/chatgpt-icon.svg"
       },
         {
           name: "Gemini",
-          icon: "src/assets/google-gemini-icon.svg"
+          icon: "/google-gemini-icon.svg"
       }
       ]
     },
 
     {
       category: "Deployment",
-      image_url: "src/assets/tools.png",
+      image_url: deployement,
       skills: [
         {
           name: "Vercel",
-          icon: "src/assets/vercel-logo.webp"
+          icon: "/vercel-logo.webp"
       },
         {
           name: "Netlify",
-          icon: "src/assets/netlify.svg"
+          icon: "/netlify.svg"
       }
       ]
     }
