@@ -28,7 +28,7 @@ const skillCard = (elems) => {
 
 
             <div
-                className='bg-background-color-lighter  py-4 px-4 rounded-b-xl flex gap-8' >
+                className='bg-background-color-lighter  py-4 px-4 rounded-b-xl flex gap-8 flex-wrap' >
                 {elems.skills.skills.map((item, key) => (
                     <img key={key}
                         className='h-8'

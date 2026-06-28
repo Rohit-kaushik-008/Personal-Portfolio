@@ -5,46 +5,73 @@ const Projects = () => {
 
 
   const Projects = [
-    {
-      title: "Mini Search Engine",
-      project_img: "public/images/projects/Project1.png",
-      description: "this is description",
-      category: "Full Stack",
-      source_code: "https://github.com/",
-      link: "https://animoshow.netlify.app/",
-      technologies: [
-        "React",
-        "Tailwind",
-        "node.js",
-      ]
-    },
-    {
-      title: "Image Gallery",
-      project_img: "public/images/projects/Project2.png",
-      description: "this is description",
-      category: "Frontend",
-      source_code: "https://github.com/",
-      link: "https://imagogallery.netlify.app/",
-      technologies: [
-        "React",
-        "Tailwind",
-        "JavaScript",
-      ]
-    },
-    {
-      title: "Personal Portfolio",
-      project_img: "public/images/projects/Project3.png",
-      description: "this is description",
-      category: "Backend",
-      source_code: "https://github.com/",
-      link: "https://krownportfolio.netlify.app/",
-      technologies: [
-        "node.js",
-        "Express.js",
-        "Rest Api",
-      ]
-    },
-  ]
+  {
+    title: "Mini Search Engine",
+    project_img: "src/assets/Project1.png",
+    description: "A full-stack search engine that allows users to find and explore content efficiently.",
+    category: "Full Stack",
+    source_code: "https://github.com/",
+    link: "https://animoshow.netlify.app/",
+    technologies: [
+      {
+        name: "React",
+        icon: "src/assets/React.svg"
+      },
+      {
+        name: "Tailwind",
+        icon: "src/assets/TailwindCSS.svg"
+      },
+      {
+        name: "node.js",
+        icon: "src/assets/nodejs-icon.svg"
+      },
+    ]
+  },
+  {
+    title: "Image Gallery",
+    project_img: "src/assets/Project2.png",
+    description: "A responsive image gallery for browsing and managing visual collections.",
+    category: "Frontend",
+    source_code: "https://github.com/",
+    link: "https://imagogallery.netlify.app/",
+    technologies: [
+      {
+        name: "React",
+        icon: "src/assets/React.svg"
+      },
+      {
+        name: "Tailwind",
+        icon: "src/assets/TailwindCSS.svg"
+      },
+      {
+        name: "JavaScript",
+        icon: "src/assets/js.png"
+      },
+    ]
+  },
+  {
+    title: "Personal Portfolio",
+    project_img: "src/assets/Project3.png",
+    description: "A personal portfolio website showcasing skills, projects, and professional journey.",
+    category: "Backend",
+    source_code: "https://github.com/",
+    link: "https://krownportfolio.netlify.app/",
+    technologies: [
+      {
+        name: "node.js",
+        icon: "src/assets/nodejs-icon.svg"
+      },
+      {
+        name: "Express.js",
+        icon: "src/assets/express.svg"
+      },
+      {
+        name: "Rest Api",
+        icon: "src/assets/fastAPi.svg"
+      },
+    ]
+  },
+]
 
 
   return (
@@ -54,11 +81,11 @@ const Projects = () => {
 
 
       {Projects.map((project, index) => (
-          <ProjectCard 
-            key={index}
-            project={project}
-          />
-        ))}
+        <ProjectCard
+          key={index}
+          project={project}
+        />
+      ))}
 
     </div>
 

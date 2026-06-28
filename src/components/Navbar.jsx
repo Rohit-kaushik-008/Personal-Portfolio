@@ -10,6 +10,7 @@ const navbar = (state) => {
   }
 
   return (
+    
     <div className={`h-screen bg-background-color border-primary-color border-2 fixed top-0 left-0 w-full z-10 transform transition-transform duration-500 ease-in-out lg:relative lg:w-[35vw] lg:top-0 lg:left-0 lg:translate-0 ${state.isOpen ? "translate-x-0 " : "-translate-x-full"}`}>
 
       <div className='flex justify-between items-center bg-background-color-dark py-4 px-4 text-primary-color-shade-light shadow-primary-color-shade-light shadow-xs'>

@@ -5,8 +5,8 @@ import gitHubicon from "../assets/github.png"
 
 const ProjectCard = ({ project }) => {
 
-
     return (
+
         <div className='text-white p-4 '>
 
             <div
@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
                 </div>
 
                 <div
-                    className='py-4'>
+                    className='py-4 px-2'>
 
                     <div
                         className='flex gap-4 justify-between items-center px-4'>
@@ -32,6 +32,7 @@ const ProjectCard = ({ project }) => {
                             {project.title}
 
                         </h1>
+
                         <h2
                             className='font-heading font-semibold bg-primary-color py-1 px-4 rounded-md'>
                             {project.category}
@@ -39,14 +40,23 @@ const ProjectCard = ({ project }) => {
                     </div>
 
                     <h2
-                        className='pt-6 px-4 text-white-2'>
+                        className='pt-6 px-4 pb-2 text-white-2 w-[80%]'>
                         {project.description}
                     </h2>
 
                     <div
                         className='flex gap-4 py-2 px-4 justify-between items-center'>
 
-                        {project.technologies}
+                        <div
+                            className='flex gap-8 flex-wrap justify-center items-center'>
+
+                            {project.technologies.map((item, key) => (
+                                <img key={key}
+                                    className='h-8'
+                                    src={item.icon}
+                                    alt={item.name} />
+                            ))}
+                        </div>
 
                         <div
                             className='flex gap-4'>
