@@ -5,6 +5,13 @@ import Project1  from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
 
+import reactIcon from "../assets/React.svg"
+import tailwind from "../assets/TailwindCSS.svg"
+import nodejs from "../assets/nodejs-icon.svg"
+import js from "../assets/js.png"
+import express from "../assets/express.svg"
+import fastApi from "../assets/fastAPi.svg"
+
 const Projects = () => {
 
 
@@ -19,15 +26,15 @@ const Projects = () => {
     technologies: [
       {
         name: "React",
-        icon: "src/assets/React.svg"
+        icon: reactIcon
       },
       {
         name: "Tailwind",
-        icon: "src/assets/TailwindCSS.svg"
+        icon: tailwind
       },
       {
         name: "node.js",
-        icon: "src/assets/nodejs-icon.svg"
+        icon: nodejs
       },
     ]
   },
@@ -41,15 +48,15 @@ const Projects = () => {
     technologies: [
       {
         name: "React",
-        icon: "src/assets/React.svg"
+        icon: reactIcon
       },
       {
         name: "Tailwind",
-        icon: "src/assets/TailwindCSS.svg"
+        icon: tailwind
       },
       {
         name: "JavaScript",
-        icon: "src/assets/js.png"
+        icon: js
       },
     ]
   },
@@ -63,15 +70,15 @@ const Projects = () => {
     technologies: [
       {
         name: "node.js",
-        icon: "src/assets/nodejs-icon.svg"
+        icon: nodejs
       },
       {
         name: "Express.js",
-        icon: "src/assets/express.svg"
+        icon: express
       },
       {
         name: "Rest Api",
-        icon: "src/assets/fastAPi.svg"
+        icon: fastApi
       },
     ]
   },
