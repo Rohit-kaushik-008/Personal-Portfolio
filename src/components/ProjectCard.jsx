@@ -1,5 +1,5 @@
 import React from 'react'
-import openLink from "../assets/Open link.png"
+import openLink from "../assets/Open-link.png"
 import gitHubicon from "../assets/github.png"
 
 

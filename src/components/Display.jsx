@@ -5,7 +5,7 @@ import Projects from '../pages/Projects'
 import Skills from '../pages/Skills'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
-import opensidebar from "../assets/open sidebar.png"
+import opensidebar from "../assets/open-sidebar.png"
 
 const Display = (state) => {
 

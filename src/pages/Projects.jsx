@@ -5,12 +5,12 @@ import Project1  from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
 
-import reactIcon from "../assets/React.svg"
+import reactIcon from "../assets/react.svg"
 import tailwind from "../assets/TailwindCSS.svg"
 import nodejs from "../assets/nodejs-icon.svg"
 import js from "../assets/js.png"
-import express from "../assets/express.svg"
-import fastApi from "../assets/fastAPi.svg"
+import express from "../assets/Express.svg"
+import fastApi from "../assets/FastAPI.svg"
 
 const Projects = () => {
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import SkillCard from '../components/SkillCard.jsx';
 
-import languages from '../assets/Prog-lang.png'
+import languages from '../assets/prog-lang.png'
 import frontend from '../assets/Frontend.png'
 import backend from '../assets/backend.png'
 import tools from '../assets/tools.png'
