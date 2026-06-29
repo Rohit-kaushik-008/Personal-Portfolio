@@ -66,7 +66,7 @@ const Projects = () => {
     description: "A personal portfolio website showcasing skills, projects, and professional journey.",
     category: "Backend",
     source_code: "https://github.com/",
-    link: "https://krownportfolio.netlify.app/",
+    link: "https://krown-portfolio.vercel.app/",
     technologies: [
       {
         name: "node.js",
